@@ -1,20 +1,6 @@
-/*
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { LockClosedIcon } from '@heroicons/react/20/solid'
 
-export default function App() {
+export default function Login() {
   return (
     <>
       {/*
@@ -113,5 +99,3 @@ export default function App() {
     </>
   )
 }
-
-
